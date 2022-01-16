@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    
+    font-family: 'Roboto, sans-serif';
+
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    background: linear-gradient(to right, #233329, #41b883);
+}
+
+@import url(sass/_colors.scss);
+@import url(sass/_typography.scss);
+@import url(sass/_layout.scss);
