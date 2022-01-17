@@ -2,16 +2,18 @@
     box-sizing: border-box;
     
     font-family: 'Roboto, sans-serif';
+    font-weight: bold;
 
     padding: 0;
     margin: 0;
 }
 
 
+@import "sass/_colors.scss";
+@import "sass/_typography.scss";
+
 body {
     background: linear-gradient(to right, #233329, #41b883);
 }
 
-@import url(sass/_colors.scss);
-@import url(sass/_typography.scss);
-@import url(sass/_layout.scss);
+@import "sass/_layout.scss";

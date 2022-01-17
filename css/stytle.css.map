@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAcA,OAAO,CAAC,sBAAI;AACZ,OAAO,CAAC,0BAAI;AACZ,OAAO,CAAC,sBAAI;AAhBZ,AAAA,CAAC,CAAA;EACG,UAAU,EAAE,UAAU;EAEtB,WAAW,EAAE,oBAAoB;EAEjC,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;CACZ;;AAGD,AAAA,IAAI,CAAC;EACD,UAAU,EAAE,2CAA2C;CAC1D",
-    "sources": [
-        "stytle.scss"
-    ],
-    "names": [],
-    "file": "stytle.css"
-}
