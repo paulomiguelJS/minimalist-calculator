@@ -11,14 +11,18 @@
 
 .grid-container > button {
     cursor: pointer;
+
     font-size: 2rem;
+    color: $white;
+
+    border: none;
     outline: none;
-    background: #111;
-    color: #eee;
+
+    background: $black-buttom;
 }
 
  .grid-container > .operator {
-    background: #41b88375;
+    background: $green-operator;
 }
 
 .span-two {
@@ -27,5 +31,27 @@
 
 .grid-container > .output {
     grid-column: 1 / -1;
-    border: 1px solid red;
+
+    background: $black-output;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+
+    padding: 10px;
+
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.grid-container > .output > .previous-operand {
+    color: $white-previous;
+
+    font-size: 1.5rem;
+}
+
+.grid-container > .output > .current-operand {
+    color: $white;
+    font-size: 2.5rem;
 }
