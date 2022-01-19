@@ -19,9 +19,16 @@
     outline: none;
 
     background: $black-buttom;
+    
+    &:hover {
+        background-color: $white;
+        color: $black-buttom;
+    }
 }
 
- .grid-container > .operator {
+
+
+.grid-container > .operator {
     background: $green-operator;
 }
 
