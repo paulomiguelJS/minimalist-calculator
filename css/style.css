@@ -45,6 +45,12 @@ body {
   background: #41b88375;
 }
 
+.grid-container > .operator:nth-child(8) {
+  font-size: 40px;
+  font-weight: 400;
+  font-family: 'Dongle', sans-serif;
+}
+
 .span-two {
   grid-column: span 2;
 }

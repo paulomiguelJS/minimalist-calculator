@@ -32,8 +32,8 @@ class Calculator {
     if(isNaN(integerDigits)) {
       integerDisplay = ''
     } else {
-      integerDisplay = integerDigits.toLocaleString("en", {
-        maximumFractionDIgits: 0,
+      integerDisplay = integerDigits.toLocaleString("en-US", {
+        maximumFractionDigits: 0,
       })
     }
 
@@ -79,7 +79,6 @@ class Calculator {
 
       this.currentOperand = result
       this.operation = undefined
-      this.previousOperand = ""
   }
 
   chooseOperation(operation) {
