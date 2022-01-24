@@ -18,7 +18,7 @@ class Calculator {
   constructor(previousOperandTextElement, currentOperandTextElement) {
     this.previousOperandTextElement = previousOperandTextElement;
     this.currentOperandTextElement = currentOperandTextElement;
-    this.clear();
+    this.clear()
   }
 
   formatDisplayNumber(number) {
@@ -134,7 +134,8 @@ operationButtons.forEach((operationButton) => {
   });
 })
  
-allClearButton.addEventListener("click", () => {
+
+allClearButton.addEventListener("click",  () => {
   calculator.clear();
   calculator.updateDisplay();
 });
